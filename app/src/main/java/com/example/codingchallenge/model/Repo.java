@@ -5,6 +5,7 @@ import com.google.gson.annotations.SerializedName;
 
 public class Repo {
 
+    // First Object fields
     private String id;
     private String node_id;
     private String name;
@@ -13,6 +14,7 @@ public class Repo {
     private String private_name;
     private String description;
 
+    // Here we are entering the nested object to get the image field
     @SerializedName("owner")
     private TheOwner owner;
 

@@ -2,6 +2,8 @@ package com.example.codingchallenge.model;
 
 public class TheOwner {
 
+    // This is the nested object
+
     private String avatar_url;
 
     public String getAvatar_url() {
